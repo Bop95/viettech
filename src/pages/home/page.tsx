@@ -18,6 +18,7 @@ import g8 from "../../assets/images/board/glr8.jpg";
 
 import g9 from "../../assets/images/board/aboutimg.jpg";
 
+import boardBg from "../../assets/images/board/board.JPG";
 export default function HomePage() {
   const [email, setEmail] = useState('');
   const [showMobileMenu, setShowMobileMenu] = useState(false);
@@ -261,7 +262,7 @@ export default function HomePage() {
       {/* Board Members Section */}
      <section id="board" className="py-24 relative overflow-hidden bg-cover bg-center"
   style={{
-    backgroundImage: "url('/src/assets/images/board/board.JPG')",
+    backgroundImage: `url(${boardBg})`
   }}>
     <div className="absolute inset-0 bg-black/60"></div>
         <div className="max-w-7xl mx-auto px-6 relative z-10">
