@@ -18,7 +18,7 @@ import g8 from "../../assets/images/board/glr8.jpg";
 
 import g9 from "../../assets/images/board/aboutimg.jpg";
 
-import boardBg from "../../assets/images/board/board.JPG";
+import boardBg from "../../assets/images/board/newboard.jpg";
 export default function HomePage() {
   const [email, setEmail] = useState('');
   const [showMobileMenu, setShowMobileMenu] = useState(false);
